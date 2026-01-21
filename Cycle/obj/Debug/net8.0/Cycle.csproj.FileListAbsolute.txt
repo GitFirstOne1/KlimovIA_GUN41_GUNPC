@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\KlimovIA_GUN41_GUNPC\Cycle\obj\Debug\net8.0\Cycle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\KlimovIA_GUN41_GUNPC\Cycle\obj\Debug\net8.0\Cycle.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\KlimovIA_GUN41_GUNPC\Cycle\obj\Debug\net8.0\Cycle.AssemblyInfo.cs
+C:\Users\Admin\Desktop\KlimovIA_GUN41_GUNPC\Cycle\obj\Debug\net8.0\Cycle.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\KlimovIA_GUN41_GUNPC\Cycle\obj\Debug\net8.0\Cycle.sourcelink.json
+C:\Users\Admin\Desktop\KlimovIA_GUN41_GUNPC\Cycle\bin\Debug\net8.0\Cycle.exe
+C:\Users\Admin\Desktop\KlimovIA_GUN41_GUNPC\Cycle\bin\Debug\net8.0\Cycle.deps.json
+C:\Users\Admin\Desktop\KlimovIA_GUN41_GUNPC\Cycle\bin\Debug\net8.0\Cycle.runtimeconfig.json
+C:\Users\Admin\Desktop\KlimovIA_GUN41_GUNPC\Cycle\bin\Debug\net8.0\Cycle.dll
+C:\Users\Admin\Desktop\KlimovIA_GUN41_GUNPC\Cycle\bin\Debug\net8.0\Cycle.pdb
+C:\Users\Admin\Desktop\KlimovIA_GUN41_GUNPC\Cycle\obj\Debug\net8.0\Cycle.dll
+C:\Users\Admin\Desktop\KlimovIA_GUN41_GUNPC\Cycle\obj\Debug\net8.0\refint\Cycle.dll
+C:\Users\Admin\Desktop\KlimovIA_GUN41_GUNPC\Cycle\obj\Debug\net8.0\Cycle.pdb
+C:\Users\Admin\Desktop\KlimovIA_GUN41_GUNPC\Cycle\obj\Debug\net8.0\Cycle.genruntimeconfig.cache
+C:\Users\Admin\Desktop\KlimovIA_GUN41_GUNPC\Cycle\obj\Debug\net8.0\ref\Cycle.dll
