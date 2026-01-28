@@ -1,0 +1,5 @@
+C:\Users\Admin\Desktop\KlimovIA_GUN41_GUNPC\Classes\obj\Debug\net8.0\Classes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\KlimovIA_GUN41_GUNPC\Classes\obj\Debug\net8.0\Classes.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\KlimovIA_GUN41_GUNPC\Classes\obj\Debug\net8.0\Classes.AssemblyInfo.cs
+C:\Users\Admin\Desktop\KlimovIA_GUN41_GUNPC\Classes\obj\Debug\net8.0\Classes.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\KlimovIA_GUN41_GUNPC\Classes\obj\Debug\net8.0\Classes.sourcelink.json
