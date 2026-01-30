@@ -26,33 +26,24 @@ namespace Classes
         public Unit(string name)
         {
             Name = name;
+            Damage = 5;
+            Armor = 0.6f;
         }
 
-        public float Armor
-        {
-            get
-            {
-                return 0.6f;
-            }
-        }
-
+        public float Armor { get; }
+        
         public float RealHealth()
         {
             return _health * (1f + Armor);
         }
 
 
-        public bool SetDamage(float result, float value = 10f)
-        {        
-            if (Health <= 0) 
+        public bool SetDamage(float damage)           
             {
-                result = Health - value * Armor;
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            _health -= damage * Armor;
+            return _health <= 0f;
+                
+            
 
             
 
