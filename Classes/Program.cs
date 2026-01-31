@@ -1,7 +1,20 @@
-﻿internal class Program
+﻿namespace Classes
 {
-    private static void Main(string[] args)
+
+    class Program
     {
-        Console.WriteLine("Hello, World!");
+        static void Main()
+        {
+            Dungeon dungeon = new Dungeon();
+            dungeon.ShowRooms();
+        }
     }
 }
+    
+
+
+
+
+
+
+

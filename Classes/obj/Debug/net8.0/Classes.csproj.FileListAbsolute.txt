@@ -3,3 +3,13 @@ C:\Users\Admin\Desktop\KlimovIA_GUN41_GUNPC\Classes\obj\Debug\net8.0\Classes.Ass
 C:\Users\Admin\Desktop\KlimovIA_GUN41_GUNPC\Classes\obj\Debug\net8.0\Classes.AssemblyInfo.cs
 C:\Users\Admin\Desktop\KlimovIA_GUN41_GUNPC\Classes\obj\Debug\net8.0\Classes.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Desktop\KlimovIA_GUN41_GUNPC\Classes\obj\Debug\net8.0\Classes.sourcelink.json
+C:\Users\Admin\Desktop\KlimovIA_GUN41_GUNPC\Classes\bin\Debug\net8.0\Classes.exe
+C:\Users\Admin\Desktop\KlimovIA_GUN41_GUNPC\Classes\bin\Debug\net8.0\Classes.deps.json
+C:\Users\Admin\Desktop\KlimovIA_GUN41_GUNPC\Classes\bin\Debug\net8.0\Classes.runtimeconfig.json
+C:\Users\Admin\Desktop\KlimovIA_GUN41_GUNPC\Classes\bin\Debug\net8.0\Classes.dll
+C:\Users\Admin\Desktop\KlimovIA_GUN41_GUNPC\Classes\bin\Debug\net8.0\Classes.pdb
+C:\Users\Admin\Desktop\KlimovIA_GUN41_GUNPC\Classes\obj\Debug\net8.0\Classes.dll
+C:\Users\Admin\Desktop\KlimovIA_GUN41_GUNPC\Classes\obj\Debug\net8.0\refint\Classes.dll
+C:\Users\Admin\Desktop\KlimovIA_GUN41_GUNPC\Classes\obj\Debug\net8.0\Classes.pdb
+C:\Users\Admin\Desktop\KlimovIA_GUN41_GUNPC\Classes\obj\Debug\net8.0\Classes.genruntimeconfig.cache
+C:\Users\Admin\Desktop\KlimovIA_GUN41_GUNPC\Classes\obj\Debug\net8.0\ref\Classes.dll

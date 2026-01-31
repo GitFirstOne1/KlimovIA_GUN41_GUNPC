@@ -6,48 +6,71 @@ using System.Threading.Tasks;
 
 namespace Classes
 {
-    internal class Weapon
+    public struct Interval
     {
-        public string Name { get; }
+        private Random _random = new Random();
 
-        public int MinDamage { get; private set; }
+        public int Min { get; }
+        public int Max { get; }
+        public int Get(int Min, int Max) => (_random.Next(Min, Max));
 
-        public int MaxDamage { get; private set; }
 
-        public float Durability { get; }
-
-        public void SetDamageParams(int min, int max)
-        {
-            SetDamageParams(MinDamage, MaxDamage);
+            public Interval(int minValue, int maxValue)
             {
-                if (MinDamage > MaxDamage)
-                {
-                    (MaxDamage, MinDamage) = (MinDamage, MaxDamage);
-                    Console.WriteLine("incorrect name ");
-                }
-                else if (MinDamage < 1f)
-                {
-                    Console.WriteLine("Minimum value 1");
-                }
 
-                if (MaxDamage <= 1f)
-                {
-                    MaxDamage = 10;
-                }
+                if (minValue < 0) 
+            {
+                minValue = 0; Console.WriteLine("Incorrect data");
             }
-        }
+                if (maxValue < 0) 
+            {
+                maxValue = 0; Console.WriteLine("Incorrect data"); 
+            }
 
-        public Weapon(string name)
+
+                if (minValue > maxValue)
+                {
+                    Console.WriteLine("Incorrect data");
+                    (maxValue, minValue) = (minValue, maxValue);
+                }
+
+
+                if (minValue == maxValue)
+                {
+                    maxValue += 10;
+                    Console.WriteLine("Incorrect data");
+                }
+
+                Min = minValue;
+                Max = maxValue;
+            }
+
+
+
+            public class Weapon
         {
-            Name = name;
-            Durability = 1;
-        }
+            public string Name { get; }
 
-        public Weapon(string name, int MinDamage, int MaxDamage) : this(name)
-        {
-           
+            public Interval DamageInterval { get; private set; }
 
+            public float Durability { get; }
 
+            public Weapon(string name)
+            {
+                Name = name;
+                Durability = 1f;
+                DamageInterval = new Interval(1, 10);
+            }
+            
+            public Weapon(string name, int MinDamage, int MaxDamage) : this(name)
+            {
+                DamageInterval = new Interval(MinDamage, MaxDamage);
+
+            }
+            public int GetDamage() => (int)((DamageInterval.Min + DamageInterval.Max) / 2);
+
+            
         }
     }
 }
+

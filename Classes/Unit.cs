@@ -7,10 +7,13 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using static System.Net.Mime.MediaTypeNames;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Classes
 {
-    internal class Unit
+  
+
+        public class Unit
     {
         private float _health;
 
@@ -18,15 +21,16 @@ namespace Classes
 
         public float Health => _health;
 
-        public int Damage { get; } = 5;
+        public Interval Damage { get; } 
+        public Unit(string name) : this(name, 0, 5) { }
 
         public Unit() : this("Unknown Unit ")
         {
         }
-        public Unit(string name)
+        public Unit(string name, int MinDamage, int MaxDamage)
         {
             Name = name;
-            Damage = 5;
+            Damage = new Interval(MinDamage, MaxDamage);
             Armor = 0.6f;
         }
 
@@ -42,13 +46,6 @@ namespace Classes
             {
             _health -= damage * Armor;
             return _health <= 0f;
-                
-            
-
-            
-
-
-
 
         }
 
@@ -57,4 +54,4 @@ namespace Classes
         }    
     }
 
-}
+
